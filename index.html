@@ -1,0 +1,339 @@
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fajar Web</title>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+
+    </head>
+    <body>
+
+    <nav class="navbar">
+        <div class="nav-left">
+            <h2 class="logo">Fajar Web</h2>
+        </div>
+
+        <button class="nav-toggle" id="navToggle">☰</button>
+
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portofolio">Portofolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+
+    </nav>
+
+        <header id="home">
+            <h1>Welcome to My Website</h1>
+        </header>
+       
+        <section class="hero" aria-labelledby="heroTitle">
+                <div class="hero-content">
+                    <h1 id="heroTitle">Easy way to build a Website</h1>
+                    <p>HTML, CSS, and JavaScript beginner to expert</p>
+                    <button class="hero-btn">Mulai Sekarang</button>
+                </div>
+
+                <div class="hero-image">
+                    <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Hero">
+                </div>
+        </section>
+
+     <section class="about" id="about" aria-labelledby="aboutTitle">
+  <div class="container">
+    <h2 class="section-title" id="aboutTitle">About</h2>
+    <p class="section-subtitle">
+      This landing page was built with HTML, CSS, and JavaScript, complete with a responsive navbar, dark mode, and adaptive card layout.
+    </p>
+
+    <div class="split">
+      <div class="panel">
+        <h3>What you get</h3>
+        <ul class="list-check">
+          <li>Clean UI with CSS variables (light/dark).</li>
+          <li>Responsive navbar + scroll spy (auto-active menu).</li>
+          <li>Consistency of the 3-2-1 grid layout on mobile devices.</li>
+          <li>The section structure is ready to be updated to the company profile/portofolio.</li>
+        </ul>
+      </div>
+
+      <div class="panel">
+        <h3>Next improvements</h3>
+        <ul class="list-check">
+          <li>Capital portofolio for project details.</li>
+          <li>Contact form with simple validation.</li>
+          <li>SEO meta + Open Graph for sharing.</li>
+          <li>Deploy to GitHub Pages/Netlify.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="services" id="services" aria-labelledby="servicesTitle">
+  <div class="container">
+    <h2 class="section-title" id="servicesTitle">Services</h2>
+    <p class="section-subtitle">Example service block. Please change it according to your needs.</p>
+
+    <div class="grid-3">
+      <article class="card card-left">
+        <div class="card-icon">🧩</div>
+        <h3>Landing Page</h3>
+        <p>Neat, fast and responsive structure for product/service promotion needs.</p>
+      </article>
+
+      <article class="card card-left">
+        <div class="card-icon">🛠️</div>
+        <h3>UI Improvement</h3>
+        <p>Appearance polishing: spacing, typography, dark mode, and micro-interactions.</p>
+      </article>
+
+      <article class="card card-left">
+        <div class="card-icon">⚡</div>
+        <h3>Performance</h3>
+        <p>Light optimization: assets, animations, and best practices to stay fast on mobile.</p>
+      </article>
+
+      <article class="card card-left">
+        <div class="card-icon">🔍</div>
+        <h3>SEO Basics</h3>
+        <p>Meta description, Open Graph, heading structure, and semantic layout.</p>
+      </article>
+
+      <article class="card card-left">
+        <div class="card-icon">📦</div>
+        <h3>Deploy</h3>
+        <p>Deploy via GitHub Pages/Netlify to have a public link for your portofolio.</p>
+      </article>
+
+      <article class="card card-left">
+        <div class="card-icon">🧾</div>
+        <h3>Maintenance</h3>
+        <p>File structure that is easy to maintain: clean, modular, and ready to scale.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="portofolio" id="portofolio" aria-labelledby="portofolioTitle">
+  <div class="container">
+    <h2 class="section-title" id="portofolioTitle">Portofolio</h2>
+    <p class="section-subtitle">Placeholder project. We can connect it to modal/detail later.</p>
+
+    <div class="grid-3">
+      <article class="tile"
+       data-title="Project Alpha"
+       data-desc="Responsive landing page with dark mode and card grid."
+       data-tags="Web,HTML/CSS"
+       data-link="#">
+        <div class="tile-top">
+            <span class="badge">Web</span>
+            <span class="badge badge-soft">HTML/CSS</span>
+        </div>
+
+         <h3>Project Alpha</h3>
+        <p>Responsive landing page with dark mode and card grid.</p>
+        <a class="tile-link" href="#" aria-label="View Project Alpha">View details →</a>
+      </article>
+
+       <article class="tile"
+       data-title="Project Beta"
+       data-desc="Improvement in spacing, typography, and basic accessibility."
+       data-tags="UI,Polish"
+       data-link="#">
+        
+        <div class="tile-top">
+          <span class="badge">UI</span>
+          <span class="badge badge-soft">Polish</span>
+        </div>
+        <h3>Project Beta</h3>
+        <p>Improvement in spacing, typography, and basic accessibility.</p>
+        <a class="tile-link" href="#" aria-label="View Project Beta">View details →</a>
+      </article>
+
+       <article class="tile"
+       data-title="Project Gamma"
+       data-desc="Responsive navbar, scroll spy, and smooth interactions."
+       data-tags="JS,UX"
+       data-link="#">
+       
+        <div class="tile-top">
+          <span class="badge">JS</span>
+          <span class="badge badge-soft">UX</span>
+        </div>
+        <h3>Project Gamma</h3>
+        <p>Responsive navbar, scroll spy, and smooth interactions.</p>
+        <a class="tile-link" href="#" aria-label="View Project Gamma">View details →</a>
+      </article>
+
+       <article class="tile"
+       data-title="Project Delta"
+       data-desc="Reusable card component with hover and consistent shadow."
+       data-tags="Design,Cards"
+       data-link="#">
+
+        <div class="tile-top">
+          <span class="badge">Design</span>
+          <span class="badge badge-soft">Cards</span>
+        </div>
+        <h3>Project Delta</h3>
+        <p>Reusable card component with hover and consistent shadow.</p>
+        <a class="tile-link" href="#" aria-label="View Project Delta">View details →</a>
+      </article>
+
+       <article class="tile"
+       data-title="Project Epsilon"
+       data-desc="Meta tags, OG tags, and correct heading structure."
+       data-tags="SEO,Basics"
+       data-link="#">
+
+        <div class="tile-top">
+          <span class="badge">SEO</span>
+          <span class="badge badge-soft">Basics</span>
+        </div>
+        <h3>Project Epsilon</h3>
+        <p>Meta tags, OG tags, and correct heading structure.</p>
+        <a class="tile-link" href="#" aria-label="View Project Epsilon">View details →</a>
+      </article>
+
+       <article class="tile"
+       data-title="Project Zeta"
+       data-desc="Auto-deploy from Git for a clean public link."
+       data-tags="Deploy,Netlify"
+       data-link="#">
+
+        <div class="tile-top">
+          <span class="badge">Deploy</span>
+          <span class="badge badge-soft">Netlify</span>
+        </div>
+        <h3>Project Zeta</h3>
+        <p>Auto-deploy from Git for a clean public link.</p>
+        <a class="tile-link" href="#" aria-label="View Project Zeta">View details →</a>
+      </article>
+    </div>
+
+<div class="section-actions">
+      <button class="btn-outline" type="button">View all projects</button>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact" aria-labelledby="contactTitle">
+  <div class="container">
+    <h2 class="section-title" id="contactTitle">Contact</h2>
+    <p class="section-subtitle">Send a short message. (We can add validation and submit logic later.)</p>
+
+     <div class="split">
+      <form class="form" autocomplete="on">
+        <label>
+          <span>Name</span>
+          <input type="text" name="name" placeholder="Your name" required>
+        </label>
+
+        <label>
+          <span>Email</span>
+          <input type="email" name="email" placeholder="name@email.com" required>
+        </label>
+
+        <label>
+          <span>Message</span>
+          <textarea name="message" rows="5" placeholder="Write your message..." required></textarea>
+        </label>
+
+        <button type="submit" class="hero-btn">Send Message</button>
+        <p class="form-note">With a click on “Send Message”, this form has not yet been sent to the server (frontend only).</p>
+      </form>
+
+      <div class="panel">
+        <h3>Contact info</h3>
+        <p>You can put your business/portofolio info here.</p>
+
+        <div class="info">
+          <div class="info-row">
+            <span class="info-label">Email</span>
+            <span class="info-value">your@email.com</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Phone</span>
+            <span class="info-value">+62 xxx-xxxx-xxxx</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Location</span>
+            <span class="info-value">Yogyakarta, ID</span>
+          </div>
+        </div>
+
+        <div class="section-actions left">
+          <button class="btn-outline" type="button">Download CV</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3 class="footer-brand">Fajar Web</h3>
+      <p class="footer-desc">
+       Modern landing page with responsive navbar, dark mode, and ready-to-develop layout.
+      </p>
+    </div>
+
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portofolio">Portofolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Contact</h3>
+      <ul class="footer-meta">
+        <li><span>Email:</span> fajarfuada077@gmail.com</li>
+        <li><span>Phone:</span> +62 852-3567-4570</li>
+        <li><span>Location:</span> Yogyakarta, ID</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    © 2025 Fajar Fuada | All rights reserved.
+  </div>
+</footer>
+
+        <script src="script.js"></script>
+
+        <!-- ===== Portfolio Modal ===== -->
+<div class="modal" id="portfolioModal" aria-hidden="true">
+  <div class="modal-overlay" data-close></div>
+
+  <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" aria-label="Close modal" data-close>×</button>
+
+    <h3 id="modalTitle">Project Title</h3>
+    <p class="modal-desc">Project description</p>
+
+    <div class="modal-tags">
+      <!-- injected -->
+    </div>
+
+    <div class="modal-actions">
+      <a href="#" target="_blank" class="btn-outline" id="modalLink">View Project</a>
+    </div>
+  </div>
+</div>
+
+    </body>
+</html>
